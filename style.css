@@ -1,0 +1,572 @@
+@import url('https://fonts.cdnfonts.com/css/graphik');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    font-family: 'Graphik', sans-serif;
+}
+
+
+#mainheader {
+
+    position: relative;
+
+    background: transparent;
+    background: #fff;
+    z-index: 999;
+}
+
+#mainheader.sticky {
+    background-color: #fff;
+    -webkit-box-shadow: 3px 5px 19px -3px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 3px 5px 19px -3px rgba(0, 0, 0, 0.36);
+    box-shadow: 3px 5px 19px -3px rgba(0, 0, 0, 0.36);
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+
+
+
+
+
+
+#mainheader .btn-outline-success {
+    width: 110px;
+    height: 51px;
+    border-radius: 26px;
+    background-color: #8ec845;
+    font-family: 'Graphik', sans-serif;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-left: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+#mainheader .btn-outline-success:hover {
+    transform: translate(-10px, 0px);
+}
+
+#mainheader .navbar-light .navbar-nav .nav-link {
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Graphik', sans-serif;
+    color: #fff;
+    padding: 0 35px;
+}
+
+#mainheader .bg-light {
+    background-color: #3077c9 !important;
+}
+
+/* hero-sec */
+#hero-sec {
+    width: 100%;
+    height: 1000px;
+    background-image: url('img/bnr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-sec .m-heading {
+    font-size: 80px;
+    line-height: 85px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Graphik', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#hero-sec .sub-title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    max-width: 55%;
+    margin: auto;
+    font-family: 'Graphik', sans-serif;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.primary-btn {
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+    width: 243px;
+    height: 72px;
+    border-radius: 36px;
+    background-color: #8ec845;
+    border: none;
+    font-family: 'Graphik', sans-serif;
+    outline: 0;
+    box-shadow: none;
+    display: block;
+    margin: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.primary-btn:hover {
+    transform: translateY(-10px);
+}
+
+#aichart {
+    width: 100%;
+}
+
+#aichart .center {
+    font-size: 60px;
+    line-height: 70px;
+    color: #0e0e0e;
+    font-weight: bold;
+    font-family: 'Graphik', sans-serif;
+    text-align: center;
+    padding: 121px 0;
+    margin: 0;
+}
+
+.sec-btn {
+    width: 171px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: #2c72c3;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Graphik";
+    display: inline-block;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.sec-btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-10px);
+}
+
+#aichart .ai-left .title {
+    font-size: 50px;
+    line-height: 70px;
+    color: #143f70;
+    font-weight: bold;
+    font-family: "Graphik";
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+#aichart .ai-left .sub-title {
+    font-size: 16px;
+    line-height: 30px;
+    color: #404040;
+    font-family: "Graphik";
+    margin-bottom: 50px;
+}
+
+#aichart .height {
+    height: 80px;
+}
+
+/* medical sectin */
+#medical {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: auto;
+    padding: 45px 0;
+    margin: 60px 0;
+}
+
+#medical .medical-txt_center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#medical .medical-txt_center .title {
+    font-size: 27px;
+    line-height: 40px;
+    color: #404040;
+    font-family: "Graphik";
+}
+
+#medical .medical-txt_center .title .color-of_title {
+    font-size: 40px;
+    line-height: 43px;
+    color: #8ec845;
+    font-family: "Graphik";
+}
+
+#medical .medical-txt_center .sub-title {
+    font-size: 20px;
+    line-height: 70px;
+    color: #0e0e0e;
+    font-family: "Graphik";
+}
+
+#automated .title {
+    font-size: 60px;
+    line-height: 70px;
+    color: #0e0e0e;
+    font-weight: bold;
+    font-family: "Graphik";
+    text-align: center;
+    margin: 0;
+}
+
+#automated .automated-tree {
+    position: relative;
+    padding: 120px 0;
+    width: 100%;
+    height: auto;
+}
+
+#automated .automated-tree img {
+    display: table;
+    margin: auto;
+}
+
+.tree-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.tree-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.tree-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.tree-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.tree-five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    transform: translate(40%, -50%);
+}
+
+.tree-title {
+    font-size: 20px;
+    color: #0e0e0e;
+    font-weight: 500;
+    font-family: "Graphik";
+    text-align: center;
+}
+
+.tree-sub_title {
+    width: 214px;
+    height: 61px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #0e0e0e;
+    font-family: "Graphik";
+    text-align: center;
+    margin: 0;
+}
+
+#contact-form {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+    margin-top: 100px;
+}
+
+#contact-form .contact-heading {
+    font-size: 60px;
+    line-height: 70px;
+    color: #0e0e0e;
+    font-weight: bold;
+    font-family: "Graphik";
+    text-align: center;
+    margin: 0;
+}
+
+#contact-form .contact-title {
+    font-size: 16px;
+    line-height: 30px;
+    color: #404040;
+    font-family: "Graphik";
+    text-align: center;
+}
+#contact-form form{
+   width: 100%;
+   height: auto;
+   padding: 60px 40px;
+    background-color: #fff;
+}
+
+#contact-form form .form-control{
+    border: none;
+    border-bottom: 1px solid #00000057;
+    border-radius: 0;
+    box-shadow: none;
+    outline: 0;
+}
+footer .ftr-warp{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+footer .copyright a{
+    font-size: 15px;
+line-height: 26px;
+color: #556489;
+font-family: "Graphik";
+margin: 0;
+text-decoration: none;
+}
+
+#contact-form form.mynumber::-webkit-outer-spin-button,
+#contact-form form .mynumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    #hero-sec .m-heading {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    #hero-sec .sub-title {
+        max-width: 70%;
+    }
+
+    #aichart .center {
+        font-size: 47px;
+        line-height: 53px;
+        padding: 70px 0;
+    }
+    #automated .title{
+        font-size: 47px;
+        line-height: 53px;
+        padding: 70px 0; 
+    }
+    #automated .automated-tree .automated-center_img{
+        width: 40%;
+    }
+    #contact-form .contact-heading{
+    font-size: 47px;
+    line-height: 53px;
+    padding: 10px 0;
+ }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    #hero-sec .m-heading {
+        font-size: 42px;
+        line-height: 57px;
+        margin-bottom: 20px;
+    }
+
+    #hero-sec {
+        height: 750px;
+    }
+
+    #aichart .center {
+        font-size: 31px;
+        line-height: 39px;
+        padding: 30px 0;
+    }
+
+    .COUSTOM-one {
+        flex-direction: column-reverse;
+    }
+
+    #automated .automated-tree img{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #hero-sec .m-heading {
+        font-size: 34px;
+        line-height: 41px;
+    }
+
+    #hero-sec .sub-title {
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .primary-btn {
+        font-size: 19px;
+        line-height: 30px;
+        width: 181px;
+        height: 50px;
+    }
+    .tree-title{
+        font-size: 16px;
+    }
+    .tree-one{
+        width: 40%;
+    }
+
+    #hero-sec {
+        height: 510px;
+    }
+
+    #aichart .center {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    #aichart .ai-left .title {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    #medical .medical-txt_center .title {
+        font-size: 22px;
+    }
+
+    #medical .medical-txt_center .title .color-of_title {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    #medical {
+        margin: 20px 0;
+    }
+
+    #medical .medical-txt_center .sub-title {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    #aichart .height {
+        height: 0px;
+    }
+    .tree-sub_title{
+        width: auto;
+        height: auto;
+    }
+    #automated .title{   
+    font-size: 22px;
+    line-height: 31px;
+    }
+    .tree-sub_title{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    #automated .automated-tree .automated-center_img{
+        width: 30%;
+    }
+    .tree-one{
+        top: 8px;
+    }
+    .tree-two{
+        top: 8px;
+    }
+    .tree-three{
+        top: 56%;
+    }
+    .tree-four{
+        top: 56%;   
+    }
+    #contact-form .contact-heading{
+        font-size: 26px;
+    line-height: 30px;
+    padding: 10px 0;
+    }
+    #contact-form{
+        padding: 0;
+        background: transparent;
+    }
+    footer .ftr-warp{
+        flex-direction: column;
+    }
+    #contact-form form{
+        padding: 24px 0px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #hero-sec .m-heading {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    #aichart .center {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .COUSTOM-two {
+        margin-bottom: 40px;
+    }
+  
+}
