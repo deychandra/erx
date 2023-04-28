@@ -380,7 +380,11 @@ text-decoration: none;
 }
 
 /* <-----=======ANIMATION=======-----> */
-.animate-one{
+#aichart .ai-left{
+    position: real;
+}
+
+#aichart .ai-left .animate-one{
     animation: animName 2s linear infinite;
     position: absolute;
     top: 30%;
